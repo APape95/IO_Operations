@@ -29,5 +29,7 @@ with open("DOB.txt") as file1:
     # Printing the heading for the second section
     print("Birthdates")
     for line in file1:
-        words = line.split()    
+        words = line.split()
+        # Print the birthdates.
+        # Joining the remaining words to form the birthdate. 
         print(" ".join(words[2:]))
